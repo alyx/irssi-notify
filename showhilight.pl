@@ -26,7 +26,8 @@ sub sig_printtext {
 
     my $sock = IO::Socket::INET->new(
         PeerAddr => 'localhost',
-        PeerPort => 48620
+        PeerPort => 48620,
+        Timeout => 5
    );
     print $sock "$text\r\n";
     close $sock;
