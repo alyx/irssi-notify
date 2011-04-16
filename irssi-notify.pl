@@ -1,5 +1,3 @@
-# Print hilighted messages with MSGLEVEL_PUBLIC  to active window 
-# for irssi 0.7.99 by Pawe³ 'Styx' Chuchma³a based on hilightwin.pl by Timo Sirainen
 use Irssi;
 use IO::Socket;
 use vars qw($VERSION %IRSSI); 
